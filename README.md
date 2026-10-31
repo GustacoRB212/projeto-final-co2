@@ -2,7 +2,6 @@
 
 **Documentação Técnica — Padrão README Corporativo**
 Disciplina: Algoritmo e Estrutura de Dados · Professor Me. Valdir Prado
-Entrega: Projeto Final (Inovatech + A2) · Prazo: 01/12/2026 às 23:59
 
 ---
 
@@ -16,20 +15,7 @@ Entrega: Projeto Final (Inovatech + A2) · Prazo: 01/12/2026 às 23:59
 | **Versão** | 2.0.0 |
 | **Linguagem** | C (padrão C11) |
 | **Licença** | MIT (repositório público) |
-| **Repositório** | `<inserir link público do GitHub/GitLab>` |
-
-**Integrantes do grupo**
-
-| Nome completo | RA | Responsabilidade principal |
-|---|---|---|
-| `<Nome 1>` | `<RA>` | Arquitetura de dados (FIFO/LIFO) |
-| `<Nome 2>` | `<RA>` | Regra de negócio e atuador |
-| `<Nome 3>` | `<RA>` | Documentação e testes de memória |
-| `<Nome 4>` | `<RA>` | Seminário e integração |
-
-> **Preencher os nomes antes de submeter no LXP.** Apenas um integrante envia o arquivo.
-
----
+| **Repositório** | https://github.com/GustacoRB212/projeto-final-co2 |
 
 ## II. Escopo Arquitetural
 
@@ -373,17 +359,6 @@ pandoc README.md -o README.pdf --pdf-engine=xelatex
 # ou: abrir o README.md no VS Code e usar "Markdown PDF: Export (pdf)"
 ```
 
----
-
-## VII. Checklist de submissão (01/12/2026, 23:59)
-
-- [ ] Preencher nomes e RAs no item I.
-- [ ] Inserir o link do repositório público (ou anexar o PDF).
-- [ ] Rodar `make` e confirmar que compila **sem warnings**.
-- [ ] Rodar `make asan` e confirmar exit code 0.
-- [ ] Ensaiar a demo de 20 min com o roteiro de `docs/roteiro-seminario.md`.
-- [ ] Cada integrante saber explicar **qualquer** bloco do `main.c` (arguição ao vivo).
-- [ ] Submeter **um único arquivo** (PDF ou link) no LXP até o prazo.
 
 ---
 
